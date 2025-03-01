@@ -19,7 +19,7 @@ import LoadingScreen from "./LoadingScreen";
 import Modal from "./Modal";
 import OverlayPage from "./overlaypage";
 import { useUser } from "./UserContext";
-import Airdrop from "./Airdrop";
+// import Airdrop from "./Airdrop";
 import Wallet from './Wallet';
 
 declare const Telegram: any;

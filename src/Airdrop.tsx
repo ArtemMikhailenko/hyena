@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useTonConnectUI, useTonAddress } from "@tonconnect/ui-react";
+import { useTonConnectUI } from "@tonconnect/ui-react";
 import "./App.css";
 import { rabbitPhoto } from "./images";
 import { useUser } from "./UserContext";
@@ -12,7 +12,7 @@ interface AirdropProps {
 const Airdrop: React.FC<AirdropProps> = ({ address }) => {
   const [tonConnectUI] = useTonConnectUI();
   const { userID, points } = useUser();
-  const userAddress = useTonAddress();
+  // const userAddress = useTonAddress();
   const [isWithdrawing, setIsWithdrawing] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
 

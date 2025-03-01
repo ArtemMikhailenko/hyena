@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useUser } from './UserContext';
 import { useTonAddress, useTonConnectUI } from '@tonconnect/ui-react';
-import { rabbitPhoto } from './images';
+// import { rabbitPhoto } from './images';
 import Modal from './Modal';
 
 const Wallet: React.FC = () => {
